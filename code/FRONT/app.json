@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "unocculto",
+    "slug": "unocculto",
+    "scheme": "Unocculto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "clerkPublishableKey": "http://192.168.79.103:4000",
+      "apiUrl": "http://192.168.79.103:4000",
+      "eas": {
+        "projectId": "3b80fff7-5afe-4959-ac76-756ad0b5b014"
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jambo.unocculto"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "build": {
+        "preview": {
+            "android": {
+                "buildType": "apk"
+            },
+            "env": {
+                "CLERK_PUBLISHABLE_KEY": "pk_test_YWNlLWNvcmFsLTc4LmNsZXJrLmFjY291bnRzLmRldiQ",
+                "EXPO_PUBLIC_API_URL": "http://192.168.79.103:4000"
+            }
+        },
+        "preview2": {
+            "android": {
+                "gradleCommand": ":app:assembleRelease"
+            }
+        },
+        "preview3": {
+            "developmentClient": true
+        },
+        "production": {}
+    }
+}
